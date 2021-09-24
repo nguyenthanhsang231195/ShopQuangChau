@@ -1,0 +1,126 @@
+/* Container-New */
+.container-new{
+    position: relative;
+    width: 100%;
+    top: 3%;
+  }
+  
+.product-new-text{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+}
+  
+.product-new-text h1{
+    text-align: center;
+    font-size: 3.0rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 
+    0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+  
+.product-new-box{
+    position: relative;
+    width: 100%;
+}
+  
+.product-new-box ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem;
+    justify-content: center;
+    align-items: center;
+}
+  
+.product-new-box ul li{
+    flex: 0 1 30rem;
+    /* 
+    flex-grow: (chỉ khoảng trống mà item có thể lấy tăng lên hay giảm xuống, 
+    0: Không tăng kích thước, 
+    1: Tăng tràn đủ kích thước ô chứa)
+    flew-shrink: (điều chỉnh khi item bị co rút lại)
+    flex-basis: (kích thước item tương đối hay tuyệt đối) 
+    */
+    border: 0.2rem solid black;
+}
+  
+.box-product{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 
+    rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+  
+.product-image{
+    max-width: 100%;
+    max-height: 30rem;
+    padding-bottom: 1rem;
+}
+  
+.product-name{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.8rem;
+    color: lightslategray;
+}
+  
+.product-price{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1200px){
+    .product-new-text h1{
+        font-size: 2.8rem;
+    }
+    .product-new-box ul li{
+      flex: 0 1 29rem;
+    }
+    .product-name{
+        font-size: 1.7rem;
+    }
+    .product-price{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 992px){
+    .product-new-text h1{
+        font-size: 2.6rem;
+    }
+    .product-new-box ul li{
+      flex: 0 1 28rem;
+    }
+    .product-name{
+        font-size: 1.6rem;
+    }
+    .product-price{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px){
+    .product-new-text h1{
+        font-size: 2.4rem;
+    }
+    .product-new-box ul li{
+      flex: 0 1 26rem;
+    }
+    .product-name{
+        font-size: 1.5rem;
+    }
+    .product-price{
+        font-size: 1.2rem;
+    }
+}

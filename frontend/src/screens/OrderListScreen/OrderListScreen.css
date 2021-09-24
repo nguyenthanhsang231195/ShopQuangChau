@@ -1,0 +1,63 @@
+.orderlistscreen{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.admin-right{
+    display: block;
+    flex: 1 1 15%;
+    background-color: gray;
+}
+
+.admin-left{
+    display: block;
+    flex: 1 1 85%;
+}
+
+.table-order-list{
+    position: relative;
+    width: 100%;
+}
+/* Đổi màu */
+.table-order-list tr:nth-child(even){background-color: #f2f2f2;}
+
+/* thead */
+.table-order-list thead{
+    color: white;
+    background-color: darkgray;
+}
+.table-order-list thead tr th{
+    font-size: 2rem;
+    font-weight: bold;
+    border: 0.2rem solid red;
+}
+
+/* tbody */
+.table-order-list tbody{
+    color: black;
+    background-color: bisque;
+    text-align: center;
+}
+.table-order-list tbody tr td{
+    font-size: 2rem;
+    border: 0.2rem solid blue;
+}
+
+/* button */
+.button-edit, .button-delete{
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-edit{
+    color: green;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.button-delete{
+    color: red;
+    margin: 0 0.5rem 0 0.5rem;
+}

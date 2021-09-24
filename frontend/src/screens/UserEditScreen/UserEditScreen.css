@@ -1,0 +1,67 @@
+.usereditscreen{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.admin-right{
+    display: block;
+    flex: 1 1 15%;
+    background-color: gray;
+}
+
+.admin-left{
+    display: block;
+    flex: 1 1 85%;
+}
+
+.form-user-edit{
+    display: flex;
+    position: relative;
+    width: 100%;
+    border: 0.2rem solid black;
+    color: black;
+    margin: 1rem 0rem 0rem 1rem;
+}
+/* Left */
+.user-edit-left{
+    position: relative;
+    flex: 1 1 40%;
+}
+
+.user-edit-add{
+    position: relative;
+    width: 100%;
+    line-height: 6rem;
+}
+
+.user-edit-add label{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.user-edit-add input{
+    position: relative;
+    width: 30%;
+    height: 3rem;
+    margin-left: 0.8rem;
+    border: 0.2rem dashed gray;
+}
+
+.check-user{
+    width: auto !important;
+    height: auto !important;
+    margin-left: 0.6rem !important;
+}
+
+.create-user-button{
+    padding: 1.8rem 2.6rem;
+    float: left;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: cell;
+}

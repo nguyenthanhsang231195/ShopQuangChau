@@ -1,0 +1,69 @@
+.shipping-box{
+    display: table;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    left: 10%;
+    margin-top: 1%;
+}
+
+.shipping-box-name{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.shipping-box-name h2{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+.signin-box-form{
+    border: 0.2rem solid black;
+    margin-top: 1%;
+}
+
+.name-box, .phone-box, .address-box, .postalCode-box{
+    display: inline-flex;
+    width: 100%;
+    gap: 1.5rem;
+    line-height: 4rem;
+    margin-top: 1rem;
+}
+
+.box-signin{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    margin-left: 1.5rem;
+}
+
+.box-signin-input{
+    width: 75%;
+    height: 2.5rem;
+    border: 0.1rem dashed black;
+    font-size: 1.6rem;
+}
+
+.change-signin-box{
+    float: left;
+    padding-top: 1.8rem;
+}
+
+.button-signin-box{
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button-signin-box:hover{
+    color: black;
+    background-color: white;
+}

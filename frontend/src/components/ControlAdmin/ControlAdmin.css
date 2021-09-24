@@ -1,0 +1,51 @@
+.admin-box{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 2%;
+}
+
+/* Admin */
+.control-main-admin{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+/* Thao tác */
+.control-admin{
+    display: block;
+    flex: 1 1 15%;
+    background-color: gray;
+}
+
+.control-admin h2{
+    position: relative;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.dashboard{
+    position: relative;
+    width: 100%;
+}
+
+.dashboard ul, .dashboard ul li{
+    margin: 0 !important;
+    padding: 0 !important;
+    color: black;
+    line-height: 5rem;
+}
+
+.dashboard h3{
+    color: whitesmoke;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+
+.dashboard h3:hover{
+    color: black;
+    cursor: pointer;
+}

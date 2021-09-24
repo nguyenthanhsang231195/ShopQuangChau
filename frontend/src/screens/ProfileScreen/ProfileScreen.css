@@ -1,0 +1,71 @@
+.update-box{
+    display: table;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    left: 20%;
+    margin-top: 1%;
+}
+
+.update-box-name{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    left: 10%;
+    margin-top: 2%;
+}
+
+.update-box-name h2{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+.update-box-form{
+    border: 0.2rem solid black;
+}
+
+.email-box, .password-box{
+    display: inline-flex;
+    width: 100%;
+    gap: 1.5rem;
+    line-height: 4rem;
+    margin-top: 1rem;
+}
+
+.box-update{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    margin-left: 1.5rem;
+}
+
+.box-update-input{
+    width: 75%;
+    height: 2.5rem;
+    border: 0.1rem dashed black;
+    font-size: 1.6rem;
+}
+
+.change-update-box{
+    float: right;
+    padding-top: 1.8rem;
+}
+
+.button-update-box{
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button-update-box:hover{
+    color: black;
+    background-color: white;
+}

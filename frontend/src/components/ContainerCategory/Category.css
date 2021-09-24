@@ -1,0 +1,22 @@
+/* Container-Category */
+.container-category{
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: 2%;
+    height: auto;
+}
+  
+.sell-buy-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+  
+.sell-buy-category h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 0 0 2px #FF0000, 0 0 4px purple;
+}

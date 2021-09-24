@@ -1,0 +1,76 @@
+.signin-box{
+    display: table;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    left: 20%;
+    margin-top: 1%;
+}
+
+.signin-box-name{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    left: 10%;
+    margin-top: 2%;
+}
+
+.signin-box-name h2{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+.signin-box-form{
+    border: 0.2rem solid black;
+}
+
+.email-box, .password-box, .name-box, .address-box, .phone-box{
+    display: inline-flex;
+    width: 100%;
+    gap: 1.5rem;
+    line-height: 4rem;
+    margin-top: 1rem;
+}
+
+.box-signin{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    margin-left: 1.5rem;
+}
+
+.box-signin-input{
+    width: 75%;
+    height: 2.5rem;
+    border: 0.1rem dashed black;
+    font-size: 1.6rem;
+}
+
+.change-signin-box{
+    float: left;
+    padding-top: 1.8rem;
+}
+
+.change-signup-box{
+    float: right;
+    padding-top: 1.8rem;
+}
+
+.button-signin-box, .button-signup-box{
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button-signin-box:hover, .button-signup-box:hover{
+    color: black;
+    background-color: white;
+}

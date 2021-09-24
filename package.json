@@ -1,0 +1,27 @@
+{
+  "name": "shop-quang-chau",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "I. Khởi tạo và sử dụng React\r 1) npx create-react-app frontend \r - tạo cây thư mục frontend trong folder\r 2) npm start \r - khởi động server post:3000, lưu ý cần vào thư mục frontend: cd frontend -> npm start\r - npm install --save react-hover (cài thêm nếu muốn dùng hover event)\r 3) Xóa các file rác\r - App.css; App.test.js; logo.svg; setupTests.js và các file chứa logo bên folder public\r 4) Thay thế các đường dẫn từ file index.html -> file index.html trong folder public\r 5) Thay chế class -> className trong file App.js\r 6) Thay thế file style.css -> file index.css\r 7) Xóa các comment từ file html vì rất dễ gây lỗi\r 8) Lưu ý các thẻ img, input ...\r - các thẻ cần được đóng />\r - các thẻ img cần có alt=\"name\" do cơ chế khác với html\r 9) Tạo file data.js trong src như sau:\r const data = {\r     products: \r     [\r         {\r             _id: '1',\r             name: \"Tên sản phẩm\",\r             category: \"Danh mục sản phẩm\",\r             image: '/Images/Áo Nữ 001.jpg',\r             price: 428,\r             brand: 'Nhãn hiệu',\r             color: 'Màu sắc',\r             description: 'Mô tả sản phẩm',\r         },\r     ],\r };\r export default data;",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7",
+    "multer": "^1.4.3",
+    "react-hover": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-plugin-react": "^7.24.0",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

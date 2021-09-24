@@ -1,0 +1,79 @@
+.row-C{
+    position: relative;
+    flex: 1 1 20%;
+}
+
+.text-sup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    height: 4rem;
+}
+
+.text-sup h3{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: red;
+    text-shadow: 
+    -1px -1px 1px #111, 
+    2px 2px 1px #363636;
+}
+
+.padding-sup{
+    background-color: blanchedalmond;
+    color: black;
+    border-top: 0.2rem solid red;
+    border-right: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+    border-left: 0.1rem solid black;
+}
+
+.padding-sup h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 800;
+}
+
+.padding-policies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding-policies h4{
+    font-size: 1.6rem;
+    text-align: center;
+    color: darkgray;
+    text-transform: uppercase;
+    padding: 0.9rem;
+    background-color: crimson;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.sales-law ul{
+    display: table;
+    gap: 0.2rem;
+}
+
+.sales-law ul li{
+    display: inline-flex;
+    gap: 0.4rem;
+}
+
+.span-sale{
+    padding: 1.0rem 1.4rem;
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 50%;
+    border: 0.1rem solid black;
+}
+
+.sales-law ul li p{
+    font-size: 1.3rem;
+    margin-top: 1.0rem;
+}

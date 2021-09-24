@@ -1,0 +1,130 @@
+.placeorder-box{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    left: 10%;
+    margin-top: 1%;
+}
+
+.placeorder-row-main{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 2%;
+}
+/* Phần chính */
+.placeorder-row-left{
+    flex: 1 1 60%;
+    position: relative;
+    border: 0.2rem solid black;
+}
+
+.row-placeorder{
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+/* Hình sản phẩm */
+.placeorder-image{
+    flex: 1 1 25%;
+    position: relative;
+}
+
+.placeorder-image img{
+    width: 9rem;
+    height: auto;
+    border: 0.2rem solid black;
+}
+
+/* Tên sản phẩm */
+.placeorder-name{
+    flex: 1 1 40%;
+    position: relative;
+}
+
+.placeorder-name h4{
+    color: black;
+    text-decoration: underline;
+}
+
+/* Tổng giá tiền */
+.placeorder-price{
+    flex: 1 1 35%;
+    position: relative;
+}
+
+
+
+/* Phần phụ */
+.placeorder-row-right{
+    flex: 1 1 40%;
+    position: relative;
+}
+
+.placeorder-row-right-one, .placeorder-row-right-two, .placeorder-row-right-three{
+    position: relative;
+    border-top: 0.2rem solid black;
+    border-left: 0.2rem solid black;
+    border-right: 0.2rem solid black;
+    padding: 2% 0% 2% 0%;
+    margin: 0% 1% 0 1%;
+}
+
+.placeorder-row-right-one ul,
+.placeorder-row-right-two ul,
+.placeorder-row-right-three ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.placeorder-row-right-one ul li,
+.placeorder-row-right-two ul li,
+.placeorder-row-right-three ul li{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.6rem;
+}
+
+.placeorder-row-right-three{
+    border-bottom: 0.2rem solid black;
+}
+
+.button-placeorder{
+    position: relative;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.button-placeorder button{
+    background-color: violet;
+    font-size: 2rem;
+    border: 0.2rem groove red;
+    width: 60%;
+    transition: all;
+    transition-duration: 1.2s;
+}
+
+.button-placeorder button:hover{
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 3rem;
+    border: 0.4rem groove blueviolet;
+    text-transform: uppercase;
+    color: whitesmoke;
+    opacity: 0.8;
+}
+
+.button-paypal{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    left: 20%;
+    margin-top: 4%;
+}

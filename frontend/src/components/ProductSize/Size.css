@@ -1,0 +1,8 @@
+.product-size-cart{
+    width: 18rem;
+    height: 5rem;
+    position: relative;
+    color: white;
+    z-index: 101;
+}
+

@@ -1,0 +1,21 @@
+.box-checkout-steps{
+    display: flex;
+    position: relative;
+    width:100%;
+    margin-top: 2%;
+}
+
+.box-checkout-steps > div {
+    border-top: 0.4rem solid gray;
+    color: gray;
+    flex: 1;
+    padding: 1.2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.box-checkout-steps > div.active {
+    border-top-color: orange;
+    color: orange;
+}
+

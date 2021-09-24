@@ -1,0 +1,92 @@
+.row-A{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1 1 50%;
+}
+
+/* Ảnh Nhỏ */
+.support-image{
+    position: relative;
+    display: flex;
+    flex: 1 1 10%;
+}
+
+.support-image ul{
+    padding: 0;
+    margin: 0;
+}
+
+.mini-image{
+    position: relative;
+    width: 80%;
+    min-width: 4.5rem;
+    height: 100%;
+    border: 0.1rem solid black;
+}
+
+/* Ảnh Lớn */
+.important-image{
+    position: relative;
+    display: flex;
+    flex: 1 1 90%;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.big-image{
+    position: relative;
+    width: 90%;
+    border: 0.2rem solid gray;
+}
+
+/* Ảnh Nhỏ Điện Thoại */
+.support-image-hide{
+    position: relative;
+    display: flex;
+}
+
+.support-image-hide ul{
+    display: inline-flex;
+    padding-left: 1.5rem;
+}
+
+.support-image-hide ul li{
+    width: 7.5rem;
+    height: 7.5rem;
+    flex-wrap: wrap;
+}
+
+.mini-image-hide{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 0.1rem solid black;
+}
+
+@media (min-width: 768px){
+    .support-image{
+        display: flex !important;
+    }
+    .support-image-hide{
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px){
+    .row-A{
+        flex-wrap: wrap;
+    }
+    .support-image{
+        display: none !important;
+    }
+    .support-image-hide{
+        display: flex !important;
+    }
+    .important-image{
+        flex: 1 1 100% !important;
+        padding: 0% !important;
+        padding-top: 2.0%;
+        padding-bottom: 2.0%;
+    }
+}
